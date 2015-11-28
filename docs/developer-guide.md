@@ -31,7 +31,7 @@ While coding, you can automatically run this using the **autovet** task:
 $ gulp autovet
 ```
 
-To simplify the task of formatting your code, you can use the **JSCS** NPM CLI provided in the developer dependencies. This does not perform apply all code fixes, just the things that can be automatically fixed by the JSCS CLI:
+To simplify the task of formatting your code, you can use the **JSCS** NPM CLI provided in the developer dependencies. This does not apply all code fixes, just the things that can be automatically fixed by the JSCS CLI:
 
 ```
 $ node_modules/jscs/bin/jscs [path-to-js-files] --fix
